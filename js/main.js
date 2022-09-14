@@ -117,5 +117,30 @@
     })
   });
 
+
+  var header = $(hero);
+
+  var backgrounds = new Array(
+      'url("../img/me-bg-2.jpg")'
+    , 'url("../img/me-bg.jpg")'
+    , 'url("../img/me-bg-3.jpg")'
+  );
+      
+  var current = 0;
+  
+  function nextBackground() {
+      current++;
+      current = current % backgrounds.length;
+      header.css('background', backgrounds[current] + 'top center');
+      header.css('background-size', 'cover');
+      header.fadeIn(1000);
+  }
+
+  function changeBackgroundSmoothly() {
+      header.fadeOut(1000, nextBackground);
+  }
+  
+  setInterval(changeBackgroundSmoothly,5000);
+
 })()
 
