@@ -146,7 +146,7 @@
     var facts = [ 
     'When working at a financial regulator, Samuel was given 6 months to work on a VBA task (NO documentation provided). He managed to complete it in 4 days without any supervision.', 
     'Samuel completed his bachelor degree as the ONE & ONLY First Class Honor graduate in his major cohort.', 
-    'As instructed from his supervisor to grade a Python assignment strictly, Samuel spotted out 15+ critical errors for each submission. The mean score before adjustment was almost "0".', 
+    'As instructed by his supervisor to grade a Python assignment strictly, Samuel spotted out 15+ critical errors for each submission. The mean score before adjustment was almost "0".', 
     'With only 3 months of forensic experience, Samuel cracked the CISA exam.'];
     var randomFact = Math.floor(Math.random() * facts.length);
     document.getElementById('factDisplay').innerHTML += facts[randomFact];
