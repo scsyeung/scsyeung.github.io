@@ -149,7 +149,8 @@
     'As instructed by his supervisor to grade a Python assignment strictly, Samuel spotted out 15+ critical errors for each submission. The mean score before adjustment was almost "0".', 
     'With only 3 months of forensic experience, Samuel cracked the CISA exam.',
     'With only 11 months of forensic experience, Samuel cracked the CISSP exam.',
-    'As a junior staff, Samuel was the ONLY member in the deartment to succssfully crack 2 professional examinations (CISSP, CISA).'];
+    'As a junior staff, Samuel was the ONLY member in the deartment to succssfully crack 2 professional examinations (CISSP, CISA).',
+    'Samuel passed FRM exam part 1 and part 2 in a single exam window (Aug 2024).'];
     var randomFact = Math.floor(Math.random() * facts.length);
     document.getElementById('factDisplay').innerHTML += facts[randomFact];
   })();
