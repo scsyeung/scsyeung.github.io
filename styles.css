@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.6;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #1a1a1a;
+    padding: 15px; /* Increased padding for more vertical space */
+    border-bottom: 1px solid #00ff00;
+    z-index: 1000;
+    box-sizing: border-box; /* Ensure padding doesn’t cause overflow */
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #00ff00;
+    font-size: 1.8em; /* Slightly larger for visibility */
+    cursor: pointer;
+    padding: 0 15px; /* Increased padding for full icon display */
+    min-width: 40px; /* Increased min-width to prevent clipping */
+    text-align: center; /* Center the icon */
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-menu a {
+    color: #00ff00;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .terminal {
+    max-width: 800px;
+    margin: 80px auto 20px;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #00ff00;
+  }
+  
+  section a {
+    color: #00ff00;
+    text-decoration: none;
+  }
+  
+  section a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #00ff00;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjusted to match increased header padding */
+      left: 0;
+      width: 100%;
+      background: #1a1a1a;
+      padding: 10px 0;
+      border-bottom: 1px solid #00ff00;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+  
+    .nav-menu a {
+      margin: 10px 20px;
+      text-align: left;
+    }
+  
+    .terminal {
+      margin: 70px 10px 20px; /* Adjusted margin to account for taller header */
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1em;
+    }
+  
+    section h2 {
+      font-size: 1.1em;
+    }
+  
+    section p, section li {
+      font-size: 0.9em;
+    }
+  }
