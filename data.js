@@ -30,12 +30,12 @@ const portfolioData = {
   ],
   projects: [
     { title: "Portfolio Website", desc: "Crafted a sleek, interactive portfolio site showcasing my skills and experience with HTML, CSS, and JavaScript—enhancing my professional resume." },
+    { title: "Netflix-like Streaming Platform", desc: "Engineered a Netflix-inspired streaming platform with Vanilla.js and Node.js, optimizing real-time video delivery and user experience." },
     { title: "Manga Viewer", desc: "Developed a responsive manga viewer using React and Node.js for seamless content delivery." },
     { title: "Manga Viewer (Python)", desc: "Prototyped an early manga viewer in Python, later re-engineered with modern web tech to expand my skillset." },
     { title: "CFA Question Scraper", desc: "Built a Python web crawler to scrape 5,000+ CFA revision questions, visualized in an HTML dashboard using Flask, HTML, and CSS." },
     { title: "CISA Question Scraper + Quiz App", desc: "Created a Python crawler to scrape 3,400+ CISA questions, rendered as an interactive quiz app with Flask, HTML, CSS, and JavaScript." },
     { title: "Job Scraper", desc: "Designed a Python crawler to extract job listings from Indeed and JobsDB, displayed in a dynamic HTML interface via Flask, HTML, CSS, and JavaScript." },
-    { title: "Netflix-like Streaming Platform (WIP)", desc: "Engineering a Netflix-inspired streaming platform with React and Node.js, optimizing real-time video delivery and user experience." },
     { title: "Multiple Quant Projects", desc: "Designed diverse solutions including stock analyzers, time series models, ML/NLP systems, and image recognition tools using Python, R, Java, C++, and VBA." }
   ],
   skills: {
