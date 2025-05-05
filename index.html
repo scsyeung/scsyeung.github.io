@@ -1,42 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samuel CS Yeung | Analyst, Developer, Gamer</title>
-  <link rel="stylesheet" href="styles.css">
-  <!-- Updated favicon to JPG -->
-  <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQLXW0LY3G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DQLXW0LY3G');
+    </script>
+    <title>Samuel CS Yeung's Portfolio</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <h1>Samuel CS Yeung | Analyst, Developer, Gamer</h1>
-      <button class="hamburger" aria-label="Toggle navigation">☰</button>
-      <nav class="nav-menu">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-  <main class="terminal">
-    <section id="about"></section>
-    <section id="education"></section>
-    <section id="experience"></section>
-    <section id="projects"></section>
-    <section id="skills"></section>
-    <section id="certifications"></section>
-    <section id="contact"></section>
-  </main>
-  <footer>
-    <p>LinkedIn</p>
-  </footer>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'91d07af92be212ea',t:'MTc0MTQxNzQ4Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
+    <header>
+        <div class="container">
+            <h1 class="name" id="header-name"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#background">Background</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#credentials">Credentials</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="background" class="section">
+        <div class="container">
+            <div class="profile-container">
+                <div class="profile-photo">
+                    <img src="images/profile-photo.png" alt="Your Name" class="profile-img">
+                </div>
+                <div class="background-content">
+                    <h2>Background</h2>
+                    <p class="intro" id="background-intro"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div id="experience-container">
+                <!-- Experience content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="credentials" class="section">
+        <div class="container">
+            <h2>Credentials</h2>
+            <div class="credentials-group">
+                <h3>Education</h3>
+                <div id="education-container">
+                    <!-- Education content will be inserted here by JavaScript -->
+                </div>
+            </div>
+            <div class="credentials-group">
+                <h3>Certifications</h3>
+                <div class="certifications-grid" id="certifications-container">
+                    <!-- Certifications content will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-filters" id="project-filters">
+                <!-- Project filters will be inserted here by JavaScript -->
+            </div>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects content will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container" id="skills-categories-container">
+                <!-- Skill categories will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-links" id="contact-container">
+                <!-- Contact links will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+            <p class="footer-attribution">Inspired by global developers and Claude</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
