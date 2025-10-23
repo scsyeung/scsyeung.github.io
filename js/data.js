@@ -62,9 +62,9 @@ const portfolioData = {
     // Certifications
     certifications: [
         {
-            name: "CFA (Chartered Financial Analyst) Level 2",
+            name: "CFA (Chartered Financial Analyst)",
             issuer: "CFA Institute",
-            year: "2024"
+            year: "2025"
         },
         {
             name: "FRM (Financial Risk Manager)",
@@ -163,7 +163,7 @@ const portfolioData = {
     
     // Contact
     contact: {
-        linkedin: "https://www.linkedin.com/in/samuel-yeung-frm-cissp-cisa-cams-ccia-ab1a93157"
+        linkedin: "https://www.linkedin.com/in/samuel-yeung-cfa-frm-cissp-cisa-cams-ccia-ab1a93157"
     }
 };
 
