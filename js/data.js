@@ -5,15 +5,23 @@ const portfolioData = {
     
     // Background
     background: {
-        intro: "A Hong Kong-based data professional with precision-driven expertise in data engineering, analytics, and science. With a mathematical foundation and technical acumen, Samuel excels at transforming complex datasets into actionable intelligence. Currently serving as a Senior Data Scientist at Ernst & Young, he specializes in forensic applications where he develops sophisticated models and analytical frameworks that uncover insights beyond traditional methods. His interdisciplinary approach combines quantitative analysis with business context to deliver solutions that drive strategic decision-making and operational efficiency. Committed to technical excellence, he continuously expands his knowledge of emerging methodologies and technologies in the data ecosystem—a practice that enables him to synthesize established analytical frameworks with cutting-edge approaches for optimal outcomes."
+        intro: "A Hong Kong-based quantitative professional specializing in data analytics, technology assessment, and financial services solutions. Samuel brings diverse experience from a Big Four advisory firm, where he delivered data analytics and quantitative solutions for financial services clients spanning IPO readiness, technology due diligence, cybersecurity, and compliance—while also contributing to AI-driven initiatives including feasibility assessments and prototype development. With a strong mathematical foundation and technical depth across data engineering, machine learning, and risk analytics, he excels at transforming complex information into actionable intelligence. Now at Nomura as an Associate in Wholesale, Samuel is focused on applying quantitative and technological expertise to capital markets challenges, combining analytical rigor with practical execution to deliver solutions for investment and risk management."
     },
     
     // Experience
     experience: [
         {
+            company: "Nomura",
+            role: "Associate",
+            period: "2026-Present",
+            achievements: [
+                "Joined Nomura as Associate, focusing on Wholesale business"
+            ]
+        },
+        {
             company: "Ernst & Young",
             role: "Senior Data Scientist",
-            period: "2022-Present",
+            period: "2022-2026",
             achievements: [
                 "Engineered high-performance Natural Language Processing (NLP) algorithms achieving 90% accuracy in analyzing and summarizing Cantonese phone calls, enhancing multilingual forensic capabilities",
                 "Architected scalable Python and MS SQL solutions for complex fund flow analysis on datasets exceeding 20 million records, enabling comprehensive financial transaction monitoring",
@@ -82,14 +90,19 @@ const portfolioData = {
             year: "2022"
         },
         {
-            name: "CAMS (Certified Anti-Money Laundering Specialist)",
-            issuer: "ACAMS",
-            year: "2025"
-        },
-        {
             name: "CCIA (Certified Cryptocurrency Investigator Advanced)",
             issuer: "Blockchain Intelligence Group",
             year: "2024"
+        },
+        {
+            name: "PMP (Project Management Professional)",
+            issuer: "PMI",
+            year: "2026"
+        },
+        {
+            name: "CAMS (Certified Anti-Money Laundering Specialist)",
+            issuer: "ACAMS, valid 2025-2028 (not renewing)",
+            year: "2025"
         }
     ],
     
@@ -141,6 +154,7 @@ const portfolioData = {
     skills: {
         categories: [
             { id: "languages", name: "Programming Languages" },
+            { id: "devTool", name: "Development Tools" },
             { id: "database", name: "Database & Query Languages" },
             { id: "webDev", name: "Web Development" },
             { id: "cloud", name: "Cloud Platforms" },
@@ -150,20 +164,21 @@ const portfolioData = {
             { id: "os", name: "Operating Systems" },
             { id: "forensic", name: "eDiscovery & Forensics Tools" }
         ],
-        languages: ["Python", "Java", "C", "Golang", "JavaScript", "R", "SAS", "VBA"],
+        languages: ["Python", "Java", "C++", "C", "Golang", "TypeScript", "JavaScript", "R", "SAS", "VBA"],
+        devTool: ["Git", "JIRA"],
         database: ["SQL", "Presto SQL"],
         webDev: ["HTML", "CSS", "React", "Node.js"],
         cloud: ["AWS", "Azure Studio"],
         ai: ["IBM Watson"],
         bigData: ["Hadoop", "Pig", "Spark"],
-        dataViz: ["Tableau", "Power BI", "Minitab"],
+        dataViz: ["Alteryx", "Tableau", "Power BI", "Minitab"],
         os: ["Linux"],
         forensic: ["Nuix", "Relativity"]
     },
     
     // Contact
     contact: {
-        linkedin: "https://www.linkedin.com/in/samuel-yeung-cfa-frm-cissp-cisa-cams-ccia-ab1a93157"
+        linkedin: "https://www.linkedin.com/in/samuel-yeung-cfa-frm-cissp-cisa-ccia-pmp-ab1a93157"
     }
 };
 
